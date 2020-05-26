@@ -1,0 +1,18 @@
+﻿  TestJson.cpp
+C:\Users\aleck\Source\repos\TestJson\TestJson\TestJson.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  xjson.c
+C:\Users\aleck\Source\repos\TestJson\TestJson\xjson.c(272,1): warning C4090: “初始化”: 不同的“const”限定符
+C:\Users\aleck\Source\repos\TestJson\TestJson\xjson.c(273,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  xjson_array.c
+  xjson_bool.c
+  xjson_name.c
+  xjson_number.c
+  xjson_object.c
+  xjson_string.c
+  xjson_word.c
+C:\Users\aleck\Source\repos\TestJson\TestJson\xjson_word.c(96,23): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+  All 48 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  TestJson.vcxproj -> C:\Users\aleck\Source\repos\TestJson\x64\Release\TestJson.exe

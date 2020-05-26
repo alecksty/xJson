@@ -1,0 +1,28 @@
+---- json_cat Matches (27 in 7 files) ----
+Xjson.c (testjson)://	º¯Êý: 	json_cat
+Xjson.c (testjson):void json_cat(char *d,int l,const char *s)
+Xjson.c (testjson):	json_cat(pd,l,XJSON_STRING_SIGN);
+Xjson.c (testjson):	json_cat(pd,l,j->name);
+Xjson.c (testjson):	json_cat(pd,l,XJSON_STRING_SIGN);
+Xjson.c (testjson):	json_cat(pd,l,":");
+Xjson.h (testjson):void 		json_cat(char *d,int l,char *s);
+Xjson_array.c (testjson):		json_cat(pd,l,"[");
+Xjson_array.c (testjson):			json_cat(pd,l,"(null)");
+Xjson_array.c (testjson):				json_cat(pd,l,"(unknow)");
+Xjson_array.c (testjson):				json_cat(pd,l,",");
+Xjson_array.c (testjson):		json_cat(pd,l,"]");
+Xjson_bool.c (testjson):			json_cat(pd,l,"true");
+Xjson_bool.c (testjson):			json_cat(pd,l,"false");
+Xjson_number.c (testjson):		json_cat(pd,l,buf);
+Xjson_object.c (testjson):		json_cat(pd,l,"{");
+Xjson_object.c (testjson):			json_cat(pd,l,"(null)");
+Xjson_object.c (testjson):			json_cat(pd,l,XJSON_STRING_SIGN);
+Xjson_object.c (testjson):			json_cat(pd,l,jo->name);
+Xjson_object.c (testjson):			json_cat(pd,l,XJSON_STRING_SIGN);
+Xjson_object.c (testjson):			json_cat(pd,l,":");
+Xjson_object.c (testjson):				json_cat(pd,l,"<unknow>");
+Xjson_object.c (testjson):				json_cat(pd,l,",");
+Xjson_object.c (testjson):		json_cat(pd,l,"}");
+Xjson_string.c (testjson):		json_cat(pd,l,XJSON_STRING_SIGN);
+Xjson_string.c (testjson):		json_cat(pd,l,j->value.text);
+Xjson_string.c (testjson):		json_cat(pd,l,XJSON_STRING_SIGN);

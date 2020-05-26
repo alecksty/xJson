@@ -1,0 +1,3 @@
+﻿  xjson.c
+C:\Users\aleck\Source\repos\TestJson\TestJson\xjson.c(272,1): warning C4090: “初始化”: 不同的“const”限定符
+  TestJson.vcxproj -> C:\Users\aleck\Source\repos\TestJson\Debug\TestJson.exe
